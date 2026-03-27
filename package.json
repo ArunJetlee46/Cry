@@ -9,7 +9,11 @@
     "deploy:local": "hardhat run scripts/deploy.js --network hardhat",
     "deploy:sepolia": "hardhat run scripts/deploy.js --network sepolia",
     "frontend:dev": "cd frontend && npm run dev",
-    "frontend:build": "cd frontend && npm run build"
+    "frontend:build": "cd frontend && npm run build",
+    "backend:dev": "cd backend && npm run dev",
+    "backend:start": "cd backend && npm start",
+    "backend:test": "cd backend && npm test",
+    "backend:sync": "cd backend && npm run sync"
   },
   "repository": {
     "type": "git",

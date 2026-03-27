@@ -9,3 +9,10 @@ coverage.json
 frontend/dist/
 frontend/.env
 frontend/.env.local
+
+# Backend files
+backend/database.sqlite
+backend/node_modules
+backend/.env
+backend/coverage
+backend/*.log
